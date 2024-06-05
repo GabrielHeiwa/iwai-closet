@@ -5,8 +5,8 @@
   "scripts": {
     "tsc": "tsc",
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
@@ -20,7 +20,10 @@
     "expo-linking": "~6.3.1",
     "expo-constants": "~16.0.2",
     "react-native-web": "~0.19.10",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "@shopify/flash-list": "1.6.4",
+    "expo-image": "~1.12.10",
+    "react-native-pager-view": "6.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

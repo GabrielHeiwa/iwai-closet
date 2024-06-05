@@ -7,7 +7,7 @@ export default function Layout() {
         headerShown: true,
       }}
     >
-      <Stack.Screen name="index" options={{}} />
+      <Stack.Screen name="index" options={{ headerShown: false }} />
       <Stack.Screen name="feed/index" options={{}} />
     </Stack>
   );
